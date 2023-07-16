@@ -17,10 +17,10 @@ int main(void)
 		{
 			for (k = 0; k <= 9; k++)
 			{
-				if (i != 0 && j != 0 && k!= 0)
-					l = 0;
-				else
+				if ((i == 0) && (j == 0) && (k== 0))
 					l = 1;
+				else
+					l = 0;
 				for (; l <= 9; l++)
 				{
 					putchar(i + '0');
