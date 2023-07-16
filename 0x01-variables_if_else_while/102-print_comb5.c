@@ -13,9 +13,12 @@ int main(void)
 
 	for (l = 1; l <= 9; l++)
 	{
-		putchar("00 0");
+		putchar('0');
+		putchar('0');
+		putchar('0');
 		putchar(l+'0');
-		putchar(", ");
+		putchar(',');
+		putchar(' ');
 	}
 	for (i = 0; i <= 9; i++)
 	{
